@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolios</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css">
+
+  <link rel="stylesheet" href="page3.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1><a href=page1.html>Shots By Soph</a></h1>
+
+<h2>Nature, Family and Sports Photos</h2>
+    <div class="f-carousel" id="myCarousel">
+        <div class="f-carousel__slide">
+        <img src="FallPhotos-3.jpg" alt="Fall Photo">
+      </div>
+
+      <div class="f-carousel__slide">
+        <img src="FamilyPhotos-18.jpg" alt="Family Photo">
+      </div>
+
+      <div class="f-carousel__slide">
+        <img src="VolleyBallTop-7.jpg" alt="Volleyball Photo">
+      </div>
+    </div>
+  </div>
+
+
+ <script>   
+    Fancybox.bind("[data-fancybox]", {});
+    const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+ </script>
+  </script>
+</body>
+</html>
