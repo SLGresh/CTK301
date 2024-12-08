@@ -1,0 +1,28 @@
+body {background-color: rgb(251, 215, 221);}
+
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 960px; margin: 0 auto;
+  }
+
+.aboutme { text-align: center;
+text-decoration: solid black;  font-family: "Sour Gummy", sans-serif;
+font-optical-sizing: auto;
+font-weight: normal;
+font-style: normal;
+grid-column: span 4; 
+filter: drop-shadow(0 0 0.75rem crimson);;}
+ 
+.sophiaphoto {grid-column: span 1;}
+.sophiaphoto {width: 250px; height: auto; margin-top: 20px;}
+
+.video {grid-column: span 4; text-align: center;}
+
+
+
+
+main {grid-column: span 3; font-size: 20px;}
+
+
