@@ -1,0 +1,19 @@
+html, body {
+    height: 100%; 
+    margin: 0;    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: lightpink; 
+}
+
+
+.contact-container {
+    text-align: center; 
+}
+
+
+.Contact {
+    border: none; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
